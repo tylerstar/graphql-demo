@@ -1,0 +1,22 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.1",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.4",
+    "json-server": "^0.15.1",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "json-server": "json-server --watch db.json",
+    "dev": "nodemon server.js"
+  }
+}
